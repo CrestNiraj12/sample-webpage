@@ -1,0 +1,176 @@
+html {
+    height: 100%;
+    font-family: 'Trebuchet MS' !important;
+}
+
+body {
+    margin: 0 5%;
+}
+
+.mainhead, .subhead, h2, hr {
+    display: inline-block;
+}
+
+.mainhead {
+    padding-right: 1.5%;
+}
+
+.subhead {
+    vertical-align: top;
+    margin-top: 2%;
+    padding: 0.5% 1.5%;
+    border-left: 1px solid #dfd9d9;
+    color: #8d8d8d;
+    font-size: 90%;
+}
+
+.header {
+    margin-bottom: 2%;
+}
+
+nav {
+    background-color: #2d2d2d;
+    padding: 1.5%;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+nav span a {
+    text-decoration: none;
+    color: #ececec;
+}
+
+nav span a:hover {
+    color: #aaaaaa;
+}
+
+nav span a:active {
+    color: #bdf0fc;
+}
+
+nav span {
+    padding: 0 2.5%;
+    border-right: 1px solid #5e5c5c;
+}
+
+.firstlink {
+    padding-left: 1%;
+}
+
+.search {
+    border-right: 0px;
+}
+
+nav span a img {
+    width: 1%;
+    float: right;
+    border-left: 1px solid #5e5c5c;
+    padding-left: 1.5%;
+}
+
+.main-img {
+    margin-top: 1.5%;
+}
+
+.main-img img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.features {
+    display: inline-flex;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+
+.feature {
+    display: inline-flex;
+    width: 100%;
+}
+
+.feature img {
+    margin-top: 4%;
+    width: 8%;
+    height: 20%;
+}
+
+.text {
+    width: 83%;
+    display: block;
+    margin-left: 3.5%;
+}
+
+.text p {
+    color: #707070;
+}
+
+.recent-work {
+    margin-top: 1%;
+}
+
+h2 {
+    width: 13%;
+}
+
+.work-line {
+    width: 86%;
+    border: none;
+    height: 0.5px;
+    background-color: #cdcdcd;
+}
+
+.works {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.work img {
+    width: 95%;
+}
+
+.work hr {
+    border: none;
+    height: 1px;
+    width: 90%;
+    background-color: #cdcdcd;
+}
+
+.work p {
+    width: 95%;
+    margin-top: 1%;
+    color: #707070;
+}
+
+h5 {
+    color: #474747;
+    font-size: 110%;
+    margin: 5% 0 2% 0;
+}
+
+.work {
+    transition: 0.5s;
+}
+
+.work:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: #cdcdcd;
+    margin-bottom: 2%;
+}
+
+footer {
+    margin-top: 7%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+footer p {
+    color: #554a68;
+}
